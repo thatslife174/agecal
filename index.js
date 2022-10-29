@@ -4,7 +4,7 @@ function get_result(){
     if(_age == ''){
         res.innerHTML = "Bạn đã nhập đéo đâu"
     } else if(_age > 0 && _age <= 1000){
-        res.innerHTML = "Tuổi của bạn là: " + _age
+        res.innerHTML = "Bạn năm nay " + _age + " tuổi"
     } else {
         res.innerHTML = _age + " là tuổi clg"
     }
